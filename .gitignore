@@ -3,7 +3,6 @@
 *.log
 *.pyc
 *.swp
-.DS_Store
 .atom/
 .build/
 .buildlog/
@@ -16,7 +15,6 @@ migrate_working_dir/
 *.iml
 *.ipr
 *.iws
-.idea/
 
 # The .vscode folder contains launch configuration and tasks you configure in
 # VS Code which you may wish to be included in version control, so this line
@@ -32,6 +30,8 @@ migrate_working_dir/
 .pub/
 /build/
 /coverage/
+.flutter-plugins
+.packages
 
 # Symbolication related
 app.*.symbols
@@ -43,3 +43,22 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Environment
+.env
+.env.*
+
+# Android
+android/.gradle/
+
+# iOS
+ios/Pods/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
